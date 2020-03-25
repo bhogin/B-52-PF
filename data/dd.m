@@ -859,6 +859,7 @@ uav.aero.Cnp = -0.0889;
 uav.aero.Cnr = -0.19997;
 uav.aero.CnDa = -0.023;
 uav.aero.CnDr = -0.1997;
+load('uav.mat');
 uav.engine = struct;
 uav.engine.MinThK = 0.077;
 uav.engine.ThK = 2.17;
@@ -872,6 +873,7 @@ uav.ic.Vb_0 = [18; 0; 0];
 uav.ic.gsLL = [42.2996388 -71.3517757];
 uav.ic.gsH = 0;
 uav.sampleTime = 0.005;
+
 
 uavStateBus = Simulink.Bus;
 uavStateBus.Description = '';
